@@ -1,0 +1,3 @@
+jquery.menu-plugin/obj/*
+*.sou
+!.gitignore
