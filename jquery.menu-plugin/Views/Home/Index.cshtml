@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2 id="openMenu2">
+    Index</h2>
+<ul>
+    <li><span id="openMenu1">Open Menu</span>
+        <div id="menuTest" class="mnu-container">
+            Menu Test.
+        </div>
+    </li>
+    <li><span id="openMenu3">Open Menu 2</span>
+        <div id="menu2Test" class="mnu-container">
+            Menu 2
+        </div>
+    </li>
+</ul>
+<script type="text/javascript">
+    $().ready(function () {
+        $("#menuTest").jqMenu({
+            openTriggers: ["#openMenu1", "#openMenu2"]
+        });
+        $("#menu2Test").jqMenu({
+            openTriggers: ["#openMenu3"],
+            openMenu: function (event, data, clicked) {
+                $(data.menuElement).html("hello");
+                $(clicked).css({ "background-color": "#ccc", "font-weight": "bold" });
+            },
+            closeMenu: function (event, data, clicked) {
+                $(clicked).css({"background-color": "transparent", "font-weight": "normal"});
+            }
+        });
+
+        $(document).click(function (event) {
+            //alert($(event.target).hasClass("mnu-trigger"));
+            if (!$(event.target).hasClass("mnu-trigger") && !$(event.target).hasClass("mnu-container-open")) {
+                //alert($(event.target).hasClass("mnu-trigger"));
+                $().closeAllMenus(".mnu-container-open", ".mnu-trigger");
+            }
+        });
+    });
+</script>
