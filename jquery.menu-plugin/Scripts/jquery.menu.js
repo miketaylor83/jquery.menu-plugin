@@ -71,3 +71,4 @@
         }
     });
 })(jQuery);
+//Adding a comment at the end of the jquery script.
