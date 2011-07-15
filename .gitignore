@@ -1,3 +1,4 @@
 jquery.menu-plugin/obj/*
 *.sou
+jquery.menu-plugin/bin/*
 !.gitignore
