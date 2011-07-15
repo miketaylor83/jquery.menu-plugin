@@ -1,5 +1,0 @@
-c:\users\michael.taylor\documents\visual studio 2010\Projects\jquery.menu-plugin\jquery.menu-plugin\bin\jquery.menu-plugin.dll
-c:\users\michael.taylor\documents\visual studio 2010\Projects\jquery.menu-plugin\jquery.menu-plugin\bin\jquery.menu-plugin.pdb
-c:\users\michael.taylor\documents\visual studio 2010\Projects\jquery.menu-plugin\jquery.menu-plugin\obj\Debug\ResolveAssemblyReference.cache
-c:\users\michael.taylor\documents\visual studio 2010\Projects\jquery.menu-plugin\jquery.menu-plugin\obj\Debug\jquery.menu-plugin.dll
-c:\users\michael.taylor\documents\visual studio 2010\Projects\jquery.menu-plugin\jquery.menu-plugin\obj\Debug\jquery.menu-plugin.pdb
